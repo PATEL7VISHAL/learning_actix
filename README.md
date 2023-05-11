@@ -15,3 +15,7 @@
 - This struct is work as `ARc` and we can make `Mutex<T>` to make Shared mutable State.
 - We can add mutiple data which can share to all routes just need to add args in function.
 - IDK how it's mange args order we can take any order or any amount of arg
+
+## Configure `App::configure(self, f: FnOnce(&mut ServiceConfig))`
+- We can create the function in which we can define service, routes, state.
+- We can also seperate the State by Scope and Organize our code.

@@ -25,7 +25,7 @@
 - By this function we can put some restriction on request comming from the client.
 - like checking host, headers etc.
 
-* Resource
+### Resource
 - By this functionality we can set state for specific path. or add some Configuration on specific path. 
 <!--  TODO: I have tried but geeting issue in state sharing for perticular path -->
 

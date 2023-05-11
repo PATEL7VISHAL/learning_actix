@@ -16,6 +16,6 @@
 - We can add mutiple data which can share to all routes just need to add args in function.
 - IDK how it's mange args order we can take any order or any amount of arg
 
-## Configure <i>App::configure(self, f: FnOnce(&mut ServiceConfig))</i>
+## Configure (<i>App::configure(self, f: FnOnce(&mut ServiceConfig))</i>)
 - We can create the function in which we can define service, routes, state.
 - We can also seperate the State by Scope and Organize our code.
